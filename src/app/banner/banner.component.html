@@ -1,0 +1,8 @@
+<div style="height: 400px;">
+    <owl-carousel [options]="option" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+        <img class="item" *ngFor="let image of images;let i = index" [src]="image" />
+    </owl-carousel>
+    <div class="item" *ngFor="let image of images;let i = index">
+        <div class="thumbnail-image" style="background : url('abc.jpg')no-repeat scroll center center / 80px 80px"></div>
+    </div>
+</div>

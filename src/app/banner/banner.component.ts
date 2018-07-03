@@ -7,6 +7,7 @@ import { Data } from '../data';
 })
 export class BannerComponent {
     images = Data.bannerImages;
+    name = Data.name;
     option = {
         items: 1,
         dots: false,

@@ -1,8 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+
+* {
+    border-radius: 0px !important;
+}
+
+body {
     padding-top: 70px;
 }
-.owl-carousel.owl-loaded.row{
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding-top: 60px;
+    }
+}
+
+.owl-carousel.owl-loaded.row {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
@@ -21,17 +36,76 @@ body{
     background: burlywood!important;
 }
 
-
 .owl-carousel .owl-nav button.owl-prev {
-        background: none;
+    background: none;
     color: inherit;
     border: none;
     padding: 0 !important;
     font: inherit;
     position: absolute;
-    left:  0px;
+    left: 0px;
     top: 42%;
     width: 30px;
     height: 30px;
     background: burlywood!important;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0px !important;
+}
+
+.navbar-brand>img {
+    display: block;
+    width: 112px;
+    height: 43px;
+}
+
+.owl-carousel .owl-item img {
+    max-height: 600px;
+    width: 100%;
+}
+
+.owl-carousel .owl-item span {
+    position: absolute;
+    left: 50px;
+    top: 70%;
+    color: #ffffff;
+    font-size: 49px;
+    text-shadow: 2px 6px 9px #3b3b3b;
+    background-color: #ff4646a8;
+    padding: 15px 32px 23px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffa500d6;
+}
+
+#about .title {
+    margin-bottom: 40px;
+}
+
+#event {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f9f9f9;
+}
+
+.event {
+    padding: 2px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 1px 3px 7px -2px #3b3b3b3d;
+}
+
+.event span {
+    font-size: 20px;
+}
+
+.evt-cont {
+    background-color: #FFF;
+    ;
+    padding: 15px 23px;
 }

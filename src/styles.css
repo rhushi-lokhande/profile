@@ -106,6 +106,8 @@ body {
 
 .evt-cont {
     background-color: #FFF;
-    ;
     padding: 15px 23px;
+}
+.owl-theme .owl-nav{
+    margin-top: 0px !important;
 }

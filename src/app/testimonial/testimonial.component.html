@@ -1,0 +1,31 @@
+<!-- Start Testimonials -->
+<div class="testimonials-area">
+    <div class="testi-inner area-padding">
+        <div class="testi-overly"></div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <!-- Start testimonials Start -->
+                    <div class="testimonial-content text-center">
+                        <a class="quate" href="#">
+                            <i class="fa fa-quote-right"></i>
+                        </a>
+                        <div>
+                            <owl-carousel [options]="option" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                                <div class="single-testi" *ngFor="let testimonial of testimonials;let i = index">
+                                        <div class="testi-text">
+                                            <p [innerHTML]="testimonial.text"></p>
+                                            <h6>{{testimonial.name}}</h6>
+                                        </div>
+                                    </div>
+                            </owl-carousel>
+                        </div>
+                    </div>
+                    <!-- End testimonials end -->
+                </div>
+                <!-- End Right Feature -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Testimonials -->

@@ -1,3 +1,4 @@
+// tslint:disable-next-line:max-line-length
 export const Data = {
     logo: '../assets/img/bjp-logo.jpg',
     menu: [
@@ -36,8 +37,8 @@ export const Data = {
         'https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.0-9/36325619_1848618135195134_6442160733059809280_n.jpg?_nc_cat=0&oh=e2f0883e721ac16fea40a03d036ec015&oe=5BE36410',
     ],
     name: 'Vivek Sahu',
-    profilePic:'https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.0-9/1535733_639640026092957_1870388539_n.jpg?_nc_cat=0&oh=87af762dfcef63de23942e49bb418765&oe=5BD950F8',
-profileDetails:`
+    profilePic: 'https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.0-9/1535733_639640026092957_1870388539_n.jpg?_nc_cat=0&oh=87af762dfcef63de23942e49bb418765&oe=5BD950F8',
+    profileDetails: `
 WELCOME to my website <b>www.temp.com</b></br></br></br>
 <p>My only purpose of building this website is to make complete use of the technology we have at our disposal to connect in an efficient manner with you all and I consider this as a source of 2 way interaction directly between you and me. Effort will be to constantly keep you updated and stay in touch.</p>
 
@@ -46,6 +47,28 @@ WELCOME to my website <b>www.temp.com</b></br></br></br>
 <p>This website is yours and is intended to equip you better to make better use of my services and capabilities and keep you updated about my initiatives, work and achievements.</p>
 
 `,
-events:['Visit to xyz village on 12/5/2018','Visit to xyz village on 12/5/2018','Visit to xyz village on 12/5/2018']
+    events: ['Visit to xyz village on 12/5/2018', 'Visit to xyz village on 12/5/2018', 'Visit to xyz village on 12/5/2018'],
 
+    testimonials: [
+        {
+            // tslint:disable-next-line:max-line-length
+            text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue.<br>consectetur adipiscing elit. Sed pulvinar luctus est eget congue.',
+            name: 'Rhushikesh Lokhande'
+        },
+        {
+            // tslint:disable-next-line:max-line-length
+            text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue.<br>consectetur adipiscing elit. Sed pulvinar luctus est eget congue.',
+            name: 'Ravindra kakde'
+        },
+        {
+            // tslint:disable-next-line:max-line-length
+            text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue.<br>consectetur adipiscing elit. Sed pulvinar luctus est eget congue.',
+            name: 'Prashatn Tibole'
+        },
+        {
+            // tslint:disable-next-line:max-line-length
+            text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar luctus est eget congue.<br>consectetur adipiscing elit. Sed pulvinar luctus est eget congue.',
+            name: 'Bhushand dhod'
+        }
+    ],
 };

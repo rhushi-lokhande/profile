@@ -11,6 +11,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { AboutComponent } from './about/about.component';
 import { EventComponent } from './events/event.component';
 import { HomeComponent } from './home/home.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 
 import { OwlModule } from 'ngx-owl-carousel';
@@ -27,7 +28,7 @@ const appRoutes: Routes = [
     AppComponent, NavbarComponent,
     BannerComponent, FooterComponent,
     ContactusComponent, AboutComponent,
-    EventComponent, HomeComponent
+    EventComponent, HomeComponent, TestimonialComponent
   ],
   imports: [
     BrowserModule, OwlModule, FormsModule,

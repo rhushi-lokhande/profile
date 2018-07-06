@@ -4,9 +4,6 @@
     border-radius: 0px !important;
 }
 
-body {
-    padding-top: 70px;
-}
 
 
 /* Smartphones (landscape) ----------- */
@@ -33,7 +30,7 @@ body {
     top: 42%;
     width: 30px;
     height: 30px;
-    background: burlywood!important;
+    background: #F97D09!important;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -47,7 +44,7 @@ body {
     top: 42%;
     width: 30px;
     height: 30px;
-    background: burlywood!important;
+    background: #F97D09!important;
 }
 
 .owl-theme .owl-nav {
@@ -66,14 +63,17 @@ body {
 }
 
 .owl-carousel .owl-item span {
+    font-family: 'Kaushan Script', cursive;
     position: absolute;
     left: 50px;
     top: 70%;
-    color: #ffffff;
+    color: #F97D09;
     font-size: 49px;
-    text-shadow: 2px 6px 9px #3b3b3b;
-    background-color: #ff4646a8;
-    padding: 15px 32px 23px;
+    text-shadow: 2px 6px 9px #f97d09a8;
+    background-color: #ffffffc7;
+    border-radius: 5px !important;
+    padding: 23px 33px 26px;
+    box-shadow: 2px 2px 8px 0px #3b3b3bc7;
 }
 
 #about {
@@ -81,9 +81,12 @@ body {
     padding-bottom: 50px;
     background-color: #ffa500d6;
 }
-
+.spl-font{
+    font-family: 'Kaushan Script', cursive;
+}
 #about .title {
     margin-bottom: 40px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 #event {
@@ -110,4 +113,32 @@ body {
 }
 .owl-theme .owl-nav{
     margin-top: 0px !important;
+}
+#gallery{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.gg-element{
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px #cccccc;
+    box-shadow: 0px 0px 6px #cccccc;
+}
+#gallery .description{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-weight: bold;
+    background: #ffffffe3;
+    padding: 10px;
+    bottom: 58px;
+    color: #000000ab;
+    overflow: hidden;
+    height: 58px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.profile-title-container{
+    background-color: #ffa500d6;
+    padding-bottom: 15px;
 }

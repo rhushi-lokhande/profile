@@ -13,11 +13,11 @@
                         <div>
                             <owl-carousel [options]="option" [carouselClasses]="['owl-theme', 'row', 'sliding']">
                                 <div class="single-testi" *ngFor="let testimonial of testimonials;let i = index">
-                                        <div class="testi-text">
-                                            <p [innerHTML]="testimonial.text"></p>
-                                            <h6>{{testimonial.name}}</h6>
-                                        </div>
+                                    <div class="testi-text">
+                                        <p [innerHTML]="testimonial.text"></p>
+                                        <h6 class="spl-font">{{testimonial.name}}</h6>
                                     </div>
+                                </div>
                             </owl-carousel>
                         </div>
                     </div>

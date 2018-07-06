@@ -2,14 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h1 class="title">{{data.name}}</h1>
+                <h1 class="title">{{data.name}}
+                <h4 class="title">{{data.post}}</h4></h1>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-3">
                 <img [src]="data.profilePic" alt="" class="img-thumbnail img-border img-responsive img">
             </div>
-            <div class="col-xs-9">
+            <div class="col-xs-9 text-justify">
                 <div [innerHtml]="data.profileDetails"></div>
             </div>
         </div>

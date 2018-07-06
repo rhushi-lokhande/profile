@@ -12,15 +12,20 @@ import { AboutComponent } from './about/about.component';
 import { EventComponent } from './events/event.component';
 import { HomeComponent } from './home/home.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 import { OwlModule } from 'ngx-owl-carousel';
+import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
 
 
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'galley', component: GalleryComponent },
+  { path: 'profile', component: ProfileComponent },
 ];
 
 @NgModule({
@@ -28,10 +33,11 @@ const appRoutes: Routes = [
     AppComponent, NavbarComponent,
     BannerComponent, FooterComponent,
     ContactusComponent, AboutComponent,
-    EventComponent, HomeComponent, TestimonialComponent
+    EventComponent, HomeComponent, TestimonialComponent,
+    GalleryComponent, ProfileComponent
   ],
   imports: [
-    BrowserModule, OwlModule, FormsModule,
+    BrowserModule, OwlModule, FormsModule, Angular2ImageGalleryModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true }

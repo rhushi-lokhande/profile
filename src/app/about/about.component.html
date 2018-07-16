@@ -1,16 +1,26 @@
 <section id="about">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
+        <div class="row visible-xs">
+            <div class="col-xs-6 col-xs-offset-3">
+                <img [src]="data.profilePic" alt="" class="img-thumbnail img-border img-responsive img">
+            </div>
+        </div>
+        <div class="row flex">
+            <div class="col-xs-3 hidden-lg hidden-xs">
+                <img [src]="data.profilePic" alt="" class="img-thumbnail img-border img-responsive img">
+            </div>
+            <div class="col-xs-12 col-sm-9">
                 <h1 class="title">{{data.name}}
-                <h4 class="title">{{data.post}}</h4></h1>
+                    <h4>{{data.post}}</h4>
+                </h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-3">
+            <div class="col-lg-3 visible-lg">
                 <img [src]="data.profilePic" alt="" class="img-thumbnail img-border img-responsive img">
             </div>
-            <div class="col-xs-9 text-justify">
+
+            <div class="col-xs-12 col-lg-9 text-justify mt-md-20">
                 <div [innerHtml]="data.profileDetails"></div>
             </div>
         </div>

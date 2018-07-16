@@ -1,0 +1,30 @@
+    @media screen and (max-width: 1199px) {
+        .mt-md-20 {
+            margin-top: 20px;
+        }
+        .flex {
+            display: flex;
+        }
+        .title {
+            margin-top: 60px;
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+        .title {
+            margin-top: 30px;
+            font-size: 35px;
+        }
+        .title h4 {
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .title {
+            text-align: center;
+        }
+        .title h4 {
+            text-align: center;
+        }
+    }

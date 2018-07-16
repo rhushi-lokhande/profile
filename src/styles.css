@@ -5,7 +5,6 @@
 }
 
 
-
 /* Smartphones (landscape) ----------- */
 
 @media only screen and (max-width: 767px) {
@@ -81,11 +80,17 @@
     padding-bottom: 50px;
     background-color: #ffa500d6;
 }
-.spl-font{
+
+.spl-font {
     font-family: 'Kaushan Script', cursive;
 }
+
 #about .title {
     margin-bottom: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#about h1.title h4 {
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -111,20 +116,24 @@
     background-color: #FFF;
     padding: 15px 23px;
 }
-.owl-theme .owl-nav{
+
+.owl-theme .owl-nav {
     margin-top: 0px !important;
 }
-#gallery{
+
+#gallery {
     margin-top: 120px;
     margin-bottom: 100px;
 }
-.gg-element{
+
+.gg-element {
     margin: 5px;
     padding: 5px;
     border: solid 1px #cccccc;
     box-shadow: 0px 0px 6px #cccccc;
 }
-#gallery .description{
+
+#gallery .description {
     position: relative;
     bottom: 0px;
     left: 0px;
@@ -138,7 +147,8 @@
     font-size: 14px;
     line-height: 22px;
 }
-.profile-title-container{
+
+.profile-title-container {
     background-color: #ffa500d6;
     padding-bottom: 15px;
 }

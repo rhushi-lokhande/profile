@@ -39,7 +39,7 @@ export const Data = {
     post: 'Member of legislative assembly (MLA) , Karanja',
     profilePic: 'https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.0-9/1535733_639640026092957_1870388539_n.jpg?_nc_cat=0&oh=87af762dfcef63de23942e49bb418765&oe=5BD950F8',
     profileDetails: `
-WELCOME to my website <b>www.temp.com</b></br></br></br>
+WELCOME to my website <b>www.temp.com</b></br></br>
 <p>My only purpose of building this website is to make complete use of the technology we have at our disposal to connect in an efficient manner with you all and I consider this as a source of 2 way interaction directly between you and me. Effort will be to constantly keep you updated and stay in touch.</p>
 
 <p>Soon information regarding my schedule will be added and constantly updated to help you know where and when I would be. This will help overcome the inconvenience I have seen people face who want to meet me and know about my location.</p>

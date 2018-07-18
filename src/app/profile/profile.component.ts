@@ -1,6 +1,5 @@
 import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import { Data } from '../data';
-
 @Component({
     selector: 'app-profile',
     templateUrl: './profile.component.html',
@@ -9,7 +8,7 @@ import { Data } from '../data';
 export class ProfileComponent implements AfterViewInit {
     data = Data;
     ngAfterViewInit() {
-        timeline(document.querySelectorAll('.timeline'), {
+        window['timeline'](document.querySelectorAll('.timeline'), {
             mode: 'horizontal',
             forceVerticalMode: 768,
         });

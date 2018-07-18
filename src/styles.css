@@ -152,3 +152,23 @@
     background-color: #ffa500d6;
     padding-bottom: 15px;
 }
+
+.timeline-section {
+    background: url('./assets/img/people.jpg') no-repeat fixed center top / cover;
+    height: auto;
+    width: 100%;
+}
+
+.timeline-divider,
+.timeline__item:after,
+.timeline:not(.timeline--horizontal):before {
+    background-color: #ffb329 !important;
+}
+
+.timeline__content h2 {
+    color: #ffb329;
+}
+
+.timeline__item:after {
+    border: 4px solid #fff !important;
+}
